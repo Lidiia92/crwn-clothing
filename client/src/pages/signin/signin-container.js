@@ -6,7 +6,7 @@ import "./signin.scss";
 
 const SigninContainer = () => {
   return (
-    <div>
+    <div className="sign-in-and-sign-up ">
       <SignIn />
       <SignUp />
     </div>
