@@ -13,7 +13,7 @@ const PreviewCollection = ({ title, items }) => {
         {items
           .filter((item, idx) => idx < 4)
           .map(item => {
-            return <CollectionItem key={item.id + Math.random()} item={item} />;
+            return <CollectionItem key={item.id} item={item} />;
           })}
       </div>
     </div>
